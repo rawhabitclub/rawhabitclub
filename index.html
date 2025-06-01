@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raw Habit Club</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #F9F9F6;
+      color: #333;
+      overflow-x: hidden;
+    }
+    header {
+      background: linear-gradient(120deg, #7BBF8E, #F4A259);
+      padding: 3rem 2rem;
+      text-align: center;
+      color: white;
+      position: relative;
+      overflow: hidden;
+    }
+    header::before {
+      content: "";
+      position: absolute;
+      top: -100px;
+      left: -100px;
+      width: 300px;
+      height: 300px;
+      background: url('https://img.icons8.com/emoji/96/kiwi-fruit.png') no-repeat center center;
+      background-size: contain;
+      animation: rotateFruit 20s linear infinite;
+      opacity: 0.1;
+    }
+    @keyframes rotateFruit {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    .container {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    .section {
+      margin-bottom: 2.5rem;
+    }
+    h2 {
+      color: #7BBF8E;
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      line-height: 1.7;
+      font-size: 1.1rem;
+    }
+    .cta {
+      text-align: center;
+      margin: 2.5rem 0;
+    }
+    .cta a {
+      background: #F4A259;
+      color: white;
+      padding: 1rem 2rem;
+      border-radius: 12px;
+      font-size: 1.2rem;
+      text-decoration: none;
+      transition: background 0.3s ease, transform 0.2s ease;
+      display: inline-block;
+    }
+    .cta a:hover {
+      background: #dd8c3b;
+      transform: scale(1.05);
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #777;
+      background-color: #f1f1f1;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Raw Habit Club</h1>
+    <p>One raw meal. One habit. Lifelong change.</p>
+  </header>
+
+  <div class="container">
+    <section class="section">
+      <h2>What Problem Are We Solving?</h2>
+      <p>In today’s fast-paced world, chronic health issues are more common than ever — and most of them stem from poor lifestyle choices. Late nights, junk food, stress, and over-reliance on medicine are making us tired, bloated, and unhealthy. We’re here to change that — one raw meal at a time.</p>
+    </section>
+
+    <section class="section">
+      <h2>Why Are We Doing This?</h2>
+      <p>Did you know over <strong>70% of modern health issues are lifestyle-related</strong>? We believe true healing comes not from pills, but from simple, natural habits that your body understands. Raw food helps restore gut health, reduce inflammation, balance hormones, and unlock your natural glow — from within.</p>
+    </section>
+
+    <section class="section">
+      <h2>My Personal Story</h2>
+      <p>I tried just <strong>one raw meal a day for 30 days</strong>. No gym. No supplements. No extra hacks. And the results? I lost visible inches from my waist and chest. My skin glowed, I felt lighter, my sleep improved, and even noticed new hair growth. All this — from just one change.</p>
+      <p>This entire movement is inspired by my mother — a wellness seeker who’s spent years researching natural healing and plant-based living. Her homemade solutions became my daily habits. Now they’re becoming a movement.</p>
+    </section>
+
+    <section class="section">
+      <h2>Are You Ready?</h2>
+      <p>Ready to stop relying on meds and start relying on habits? If you're serious about real, natural change — Raw Habit Club is where you begin.</p>
+    </section>
+
+    <div class="cta">
+      <a href="https://calendly.com/yourusername/rawhabitcall" target="_blank">🎯 Book a Free Call & Join the Challenge</a>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Raw Habit Club. Built with 💚 for people who believe in natural change.
+  </footer>
+</body>
+</html>
